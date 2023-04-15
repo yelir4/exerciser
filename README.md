@@ -1,13 +1,18 @@
 # exerciser
 personal project
-04/06/2023
+est. 04/06/2023
 
 # overview
-going to try to learn the windows api with this
-so obviously it only works on windows
-im on windows 10 but
-idk
+learning the ins and outs of winapi
+so obviously it only works on windows right now
+im on windows 10
+
+and listen bro its gonna be in english bro so if you put weird esoteric
+characters in here im not taking responsibility for what happens to you ...
+you put that on yourself
+but it shouldn't do anything bad regardless...
 
 
 # note
-`g++ main.cpp window.cpp -o exerciser -DUNICODE`
+if you want to compile it yourself and you are noticeably a windows user ...
+`g++ window.cpp -o exerciser -DUNICODE -lgdi32`
